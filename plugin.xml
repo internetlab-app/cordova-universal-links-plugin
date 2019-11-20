@@ -86,6 +86,13 @@
       </feature>
     </config-file>
 
+    <config-file target="AndroidManifest.xml" parent="/manifest/application">
+      <activity android:name="com.foo.Foo" android:label="@string/app_name">
+        <intent-filter>
+        </intent-filter>
+      </activity>
+    </config-file>
+
 <!-- Java Library Sources -->
 <!-- sources for package: com.nordnetab.cordova.ul.js -->
     <source-file src="src/android/com/nordnetab/cordova/ul/js/JSAction.java" target-dir="src/com/nordnetab/cordova/ul/js/"/>
