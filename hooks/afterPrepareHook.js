@@ -62,7 +62,7 @@ function run(cordovaContext) {
  */
 function activateUniversalLinksInAndroid(cordovaContext, pluginPreferences) {
   // inject preferenes into AndroidManifest.xml
-  //androidManifestWriter.writePreferences(cordovaContext, pluginPreferences);
+  androidManifestWriter.writePreferences(cordovaContext, pluginPreferences);
 
   // generate html file with the <link> tags that you should inject on the website.
   androidWebHook.generate(cordovaContext, pluginPreferences);
