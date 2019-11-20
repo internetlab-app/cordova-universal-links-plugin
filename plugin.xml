@@ -86,7 +86,7 @@
       </feature>
     </config-file>
 
-    <config-file target="AndroidManifest.xml" parent="/manifest/application/activity[@android:name='ru.migcredit.appt3.MigCredit']">
+    <config-file target="AndroidManifest.xml" parent="/manifest/application/activity[@android:name='MigCredit']">
       <intent-filter>
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
