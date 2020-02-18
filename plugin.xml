@@ -93,8 +93,8 @@
         <category android:name="android.intent.category.BROWSABLE" />
         <data
                 android:scheme="https"
-                android:host="dev.internetlab.ru"
-                android:pathPattern="/deeplink/index.html" />
+                android:host="test3.migcredit.ru"
+                android:pathPattern="/dengi3/" />
       </intent-filter>
     </config-file>
 
