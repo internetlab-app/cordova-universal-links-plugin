@@ -94,7 +94,7 @@
         <data
                 android:scheme="https"
                 android:host="test3.migcredit.ru"
-                android:pathPattern="/dengi3/" />
+                android:pathPattern="/ma/" />
       </intent-filter>
     </config-file>
 
