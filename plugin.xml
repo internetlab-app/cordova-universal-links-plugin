@@ -50,6 +50,17 @@
 		</array>
 	</config-file>
 
+	<config-file platform="ios" target="embedded.mobileprovision" parent="com.apple.developer.associated-domains" mode="replace">
+		<array>
+			<string>applinks:test3.migcredit.ru</string>
+		</array>
+	</config-file>
+	<edit-config target="com.apple.developer.associated-domains" file="embedded.mobileprovision" mode="overwrite">
+		<array>
+			<string>applinks:test3.migcredit.ru</string>
+		</array>
+	</edit-config>
+
 <!-- Objective-C Sources -->
 
     <source-file src="src/ios/CULPlugin.m"/>
