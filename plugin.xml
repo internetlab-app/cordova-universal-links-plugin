@@ -30,7 +30,7 @@
   <platform name="ios">
     <hook src="hooks/iosBeforePrepareHook.js" type="before_prepare" />
 	
-	<config-file parent="com.apple.developer.associated-domains" target="app.entitlements">
+	<config-file parent="com.apple.developer.associated-domains" target="MigCredit.entitlements">
 		<array>
 			<string>applinks:test3.migcredit.ru</string>
 		</array>
