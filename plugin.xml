@@ -29,10 +29,30 @@
 
   <platform name="ios">
     <hook src="hooks/iosBeforePrepareHook.js" type="before_prepare" />
+        <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+            <array>
+                <dict>
+                    <key>CFBundleTypeRole</key>
+                    <string>Editor</string>
+                    <key>CFBundleURLName</key>
+                    <string>ru.migcredit.test3</string>
+                    <key>CFBundleURLSchemes</key>
+                    <array>
+                        <string>ru.migcredit.test3</string>
+                    </array>
+                </dict>
+            </array>
+        </config-file>
+      
+        <config-file parent="com.apple.developer.associated-domains" target="app.entitlements">
+            <array>
+                <string>applinks:ru.migcredit.test3</string>
+            </array>
+        </config-file>
 	
 	<config-file parent="com.apple.developer.associated-domains" target="MigCredit.entitlements">
 		<array>
-			<string>applinks:test3.migcredit.ru</string>
+			<string>applinks:ru.migcredit.test3</string>
 		</array>
 	</config-file>
 
