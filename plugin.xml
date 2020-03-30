@@ -104,7 +104,7 @@
       </feature>
     </config-file>
 
-    <config-file target="AndroidManifest.xml" parent="/manifest/application/activity[@android:name='MigCredit']">
+    <config-file target="AndroidManifest.xml" parent="/manifest/application/activity[@android:name='МигКредит Займы Онлайн']">
       <intent-filter>
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
